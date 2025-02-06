@@ -34,39 +34,3 @@ void loop() {
         }
     }
 }
-/*
-RH_ASK driver(RADIOHEAD_BAUD, RADIOHEAD_RX_PIN, RADIOHEAD_TX_PIN);
-
-void setup() {
-    driver.init();
-}
-
-void loop() {
-    const char *msg = "hello"; // "Just say hello" ~Rene Froger
-
-    driver.send((uint8_t *)msg, strlen(msg));
-    driver.waitPacketSent();
-    delay(200);
-}
-
-
-*/
-/*
-U8G2_SSD1306_128X64_NONAME_F_SW_I2C  
-u8g2 (U8G2_R0, 14,12, U8X8_PIN_NONE) ;
-void setup(void) {
-  u8g2.begin();
-
-}
-
-void loop(void) {
-  /*
-  u8g2.clearBuffer();					// clear the internal memory
-  u8g2.setFont(u8g2_font_ncenB08_tr);	// choose a suitable font
-  u8g2.drawStr(0,10,"Hello World!");	// write something to the internal memory
-  u8g2.sendBuffer();					// transfer internal memory to the display
-  delay(1000);  
-
-
-}
-*/
